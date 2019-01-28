@@ -1,5 +1,7 @@
 
-function press() {
-  var input_value = document.getElementById('lastname').value;
-  alert('Vos dernières lettres sont : '+input_value);
+function inputValue(){
+  // on récupère la valeur de l'element avec .value
+  var lastname = document.getElementById('lastname').value;
+  // on alerte la valeur
+  alert(lastname);
 }
